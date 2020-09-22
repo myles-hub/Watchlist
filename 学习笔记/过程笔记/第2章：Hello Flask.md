@@ -43,9 +43,10 @@ $ flask run
 
 在启动 Flask 程序的时候，我们通常要和下面两个环境变量打交道：**<u>"FLASK_APP"</u>** 和 <u>**”FLASK_ENV“**</u>
 
-- FLASK_APP 变量
+- **FLASK_APP 变量**
   - FLASK_APP 变量主要与 **<u>"app.py"</u>** 相关联
-- FLASK_ENV
+  - FlASK_APP = app.py
+- **FLASK_ENV 变量**
   - **<u>“FLASK_ENV 变量”</u>** 主要与应用程序的 **<u>“debug mode”</u>** 相关联；
   - 关闭 “debug mode" ：FLASK_ENV = production （默认状态）；
   - 开启 “debug mode” ：FLAKS_ENV = development (需要手动配置)
